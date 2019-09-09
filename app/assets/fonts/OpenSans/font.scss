@@ -1,0 +1,48 @@
+$font-name: 'Open Sans';
+$font-dir: 'OpenSans';
+
+@font-face {
+	font-family: $font-name;
+	font-style: normal;
+	font-weight: 300;
+	src:
+		local('☺'),
+		url('Open_Sans_300.woff') format('woff'),
+		url('Open_Sans_300.woff2') format('woff2');
+}
+@font-face {
+	font-family: $font-name;
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('☺'),
+		url('Open_Sans_400.woff') format('woff'),
+		url('Open_Sans_400.woff2') format('woff2');
+}
+@font-face {
+	font-family: $font-name;
+	font-style: normal;
+	font-weight: 600;
+	src:
+		local('☺'),
+		url('Open_Sans_600.woff') format('woff'),
+		url('Open_Sans_600.woff2') format('woff2');
+}
+@font-face {
+	font-family: $font-name;
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('☺'),
+		url('Open_Sans_700.woff') format('woff'),
+		url('Open_Sans_700.woff2') format('woff2');
+}
+@font-face {
+	font-family: $font-name;
+	font-style: normal;
+	font-weight: 800;
+	src:
+		local('☺'),
+		url('Open_Sans_800.woff') format('woff'),
+		url('Open_Sans_800.woff2') format('woff2');
+}

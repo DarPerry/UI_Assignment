@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+			"target": "es5",
+			"lib": ["esnext", "es2016", "dom"],
+			"types": ["node", "webpack-env"],
+			"module": "esNext",
+			"moduleResolution": "node",
+			"esModuleInterop": true,
+			"sourceMap": true,
+			"importHelpers": true,
+			"strict": true,
+			"noImplicitAny": false,
+			"emitDecoratorMetadata": true,
+			"experimentalDecorators": true,
+			"baseUrl": ".",
+			"outDir": "dist",
+			"paths": {
+					"@app/*": ["app/*"],
+					"@helpers/*": ["app/helpers/*"],
+			}
+	},
+	"include": ["app/**/*"],
+	"exclude": ["node_modules"]
+}
+

@@ -1,0 +1,24 @@
+{
+	"root": true,
+	"parserOptions": {
+		"parser": "babel-eslint"
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"extends": ["plugin:vue/essential", "eslint:recommended"],
+	"plugins": ["vue"],
+	"rules": {
+		"generator-star-spacing": "off",
+		"no-debugger": "warn",
+		"semi": "error",
+		"no-template-curly-in-string": "error",
+		"curly": ["error", "all"],
+		"dot-location": ["error", "property"]
+	},
+	"globals": {
+		"Vue": true,
+		"ENVIRONMENT": true
+	}
+}
